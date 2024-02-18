@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -86,5 +85,39 @@
 }
 .navigate .active {
   background-color: #1f1f1f;
+  color: white;
+}
+
+.banner {
+  background-image: url(img/banner.png);
+  height: 810px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner__logo {
+  border: 4px solid white;
+  height: 320px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.banner__img {
+  display: block;
+  justify-content: center;
+  padding-top: 100px;
+  width: 200px;
+  margin: 0 auto;
+  border-bottom: 4px solid white;
+}
+.banner__title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
   color: white;
 }/*# sourceMappingURL=style.css.map */
