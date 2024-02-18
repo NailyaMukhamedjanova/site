@@ -119,7 +119,7 @@ flex-direction: column;
 &__img {
 display: block;
 justify-content: center;
-padding-top: 100px;
+padding-top: 120px;
 width: 200px;
 margin: 0 auto;
 border-bottom: 4px solid white;
@@ -133,7 +133,20 @@ text-transform: uppercase;
 text-align: center;
 color: white;
 }
+&__desc {
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-transform: uppercase;
+text-align: center;
+color: white;
+width: 730px;
+height: 96px;
+padding-top: 100px;
+}   
 }
+
+
 
 
 
