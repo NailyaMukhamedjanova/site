@@ -95,7 +95,6 @@
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 .banner__logo {
@@ -104,14 +103,16 @@
   width: 320px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
 }
 .banner__img {
   display: block;
   justify-content: center;
-  padding-top: 120px;
   width: 200px;
   margin: 0 auto;
   border-bottom: 4px solid white;
+  padding-bottom: 15px;
 }
 .banner__title {
   font-family: var(--second-family);
@@ -131,4 +132,99 @@
   width: 730px;
   height: 96px;
   padding-top: 100px;
+}
+
+.container-wrapper {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.collections {
+  background-color: #000;
+}
+.collections__img {
+  background-image: url(./img/collection.jpg);
+  height: 730px;
+  width: 880px;
+}
+.collections__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 93px 80px;
+  margin: 0 auto;
+}
+.collections__h3 {
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  margin: 100px 20px 20px;
+}
+.collections__cards {
+  display: flex;
+  gap: 50px;
+  margin: 0 auto;
+}
+.collections__card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background: linear-gradient(to bottom, #191B1C 65%, #000 35%);
+}
+.collections__card p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+}
+.collections__card img {
+  margin: 55px 20px 80px;
+}
+.collections__card span {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  color: lightgrey;
+  margin-bottom: 100px;
+}
+.collections__line {
+  width: 120px;
+  height: 1px;
+  background-color: white;
+  display: block;
+}
+.collections__img {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.collections__img-h3 {
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+.collections__btn {
+  border: 1px solid white;
+  padding: 12px 28px;
+  width: 138px;
+  height: 47px;
+  background: none;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  background-color: none;
+  padding: 12px 28px;
+  margin-bottom: 100px;
 }/*# sourceMappingURL=style.css.map */
